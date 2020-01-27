@@ -41,8 +41,7 @@ const promptTeam = function() {
         console.log("Name must exist.");
         promptTeam();
         return
-    }
-    if (data.)
+    };
     //specific manager things
     if (data.role === "Manager") {
         inquirer.prompt([
